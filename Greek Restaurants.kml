@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Greek Restaurants.kml</name>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Greek Restaurants</name>
+		<open>1</open>
+		<Placemark>
+			<name>Crystals&apos;s Cuisine &amp; Cafe</name>
+			<description>Greek Restaurant</description>
+			<LookAt>
+				<longitude>-123.2719375328681</longitude>
+				<latitude>44.56781890371769</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002134208186409869</heading>
+				<tilt>51.73244607391265</tilt>
+				<range>191.2983422645406</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.272347809388,44.56738520092578,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alley Gyros</name>
+			<description>Greek Restaurant</description>
+			<LookAt>
+				<longitude>-123.2603373200848</longitude>
+				<latitude>44.56395178032128</latitude>
+				<altitude>0</altitude>
+				<heading>0.0001465583733408374</heading>
+				<tilt>60.00100562738352</tilt>
+				<range>129.2337672474506</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.2606537170927,44.56375992005773,0</coordinates>
+			</Point>
+		</Placemark>
+		<Folder>
+			<name>Morrocan Restaruants</name>
+			<open>1</open>
+			<Placemark>
+				<name>Little Morocco</name>
+				<description>Moroccan Restaurant</description>
+				<LookAt>
+					<longitude>-123.2621837151024</longitude>
+					<latitude>44.55949876555717</latitude>
+					<altitude>0</altitude>
+					<heading>-155.5278477995784</heading>
+					<tilt>60.00225418899753</tilt>
+					<range>289.7633112018571</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-123.2616467880651,44.55995762640415,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
