@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Thai.kml</name>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Thai</name>
+		<open>1</open>
+		<Placemark>
+			<name>Thai Chili</name>
+			<LookAt>
+				<longitude>-123.2724286398997</longitude>
+				<latitude>44.56739588099248</latitude>
+				<altitude>8.889792602888011</altitude>
+				<heading>0.003943809036247198</heading>
+				<tilt>60.00035892071266</tilt>
+				<range>45.51048571669002</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.272608834201,44.56746008690154,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tarn Tip</name>
+			<Camera>
+				<longitude>-123.2774492240335</longitude>
+				<latitude>44.56611301874661</latitude>
+				<altitude>1322.686993121756</altitude>
+				<heading>-10.07260310548892</heading>
+				<tilt>0.8311939147001518</tilt>
+				<roll>-8.851173647547467</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.2798133146469,44.56895768463124,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lemongrasss Noodle House</name>
+			<LookAt>
+				<longitude>-123.27443239121</longitude>
+				<latitude>44.56726075711146</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000168966191518513</heading>
+				<tilt>55.12043206017876</tilt>
+				<range>563.3101982833625</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.2741765605365,44.56781922654269,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
