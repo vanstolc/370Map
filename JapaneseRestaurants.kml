@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JapaneseRestaurants.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>JapaneseFood</name>
+		<open>1</open>
+		<Placemark>
+			<name>Sugoi Sushi</name>
+			<LookAt>
+				<longitude>-123.2686773484739</longitude>
+				<latitude>44.57427023836044</latitude>
+				<altitude>0</altitude>
+				<heading>-14.07329133527255</heading>
+				<tilt>0</tilt>
+				<range>7014.594991847348</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.2583260511093,44.58526770239858,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Shogun Bowl</name>
+			<LookAt>
+				<longitude>-123.2686773484739</longitude>
+				<latitude>44.57427023836044</latitude>
+				<altitude>0</altitude>
+				<heading>-14.07329133527255</heading>
+				<tilt>0</tilt>
+				<range>7014.594991847348</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.2781959734873,44.56820428507223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ring of Fire</name>
+			<LookAt>
+				<longitude>-123.2686773484739</longitude>
+				<latitude>44.57427023836044</latitude>
+				<altitude>0</altitude>
+				<heading>-14.07329133527255</heading>
+				<tilt>0</tilt>
+				<range>7014.594991847348</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.2832042833412,44.56333786235407,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Aomatsu Sushi &amp; Grill</name>
+			<LookAt>
+				<longitude>-123.2628335873299</longitude>
+				<latitude>44.56410448458696</latitude>
+				<altitude>0</altitude>
+				<heading>-14.06919029654511</heading>
+				<tilt>0</tilt>
+				<range>2856.07968093713</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.2608016989654,44.56453532085009,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sada Sushi &amp; Izakaya</name>
+			<LookAt>
+				<longitude>-123.2628335873299</longitude>
+				<latitude>44.56410448458696</latitude>
+				<altitude>0</altitude>
+				<heading>-14.06919029654511</heading>
+				<tilt>0</tilt>
+				<range>2856.07968093713</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.2589711375665,44.56375375160354,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tokyo Japanese Steakhouse &amp; Sushi Bar</name>
+			<LookAt>
+				<longitude>-123.2628335873299</longitude>
+				<latitude>44.56410448458696</latitude>
+				<altitude>0</altitude>
+				<heading>-14.06919029654511</heading>
+				<tilt>0</tilt>
+				<range>2856.07968093713</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.2620135027469,44.56231611659181,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kento Hibachi on Wheels</name>
+			<LookAt>
+				<longitude>-123.2628335873299</longitude>
+				<latitude>44.56410448458696</latitude>
+				<altitude>0</altitude>
+				<heading>-14.06919029654511</heading>
+				<tilt>0</tilt>
+				<range>2856.07968093713</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.2643991176976,44.56010365030731,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

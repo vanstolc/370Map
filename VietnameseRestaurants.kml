@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>VietnameseRestaurants.kml</name>
+	<StyleMap id="msn_ylw-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-circle">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-circle">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>VietnameseRestaurants</name>
+		<open>1</open>
+		<Placemark>
+			<name>Kimhoa&apos;s Kitchen</name>
+			<LookAt>
+				<longitude>-123.2647641160895</longitude>
+				<latitude>44.57602718970357</latitude>
+				<altitude>0</altitude>
+				<heading>-10.37545681991922</heading>
+				<tilt>0</tilt>
+				<range>4850.278400518901</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.2734160854307,44.5870937120373,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Baguette Vietnamese Sandwiches</name>
+			<LookAt>
+				<longitude>-123.2584611837236</longitude>
+				<latitude>44.56750541029406</latitude>
+				<altitude>0</altitude>
+				<heading>-10.37103402497202</heading>
+				<tilt>0</tilt>
+				<range>4849.126048074498</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.2607112233694,44.5632934761794,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Magenta Restaurant</name>
+			<LookAt>
+				<longitude>-123.2584611837236</longitude>
+				<latitude>44.56750541029406</latitude>
+				<altitude>0</altitude>
+				<heading>-10.37103402497202</heading>
+				<tilt>0</tilt>
+				<range>4849.126048074498</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.2598072238223,44.56279210973786,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
